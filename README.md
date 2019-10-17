@@ -1,4 +1,4 @@
-# Samsung SOny Ericson legacy notes .vnt file combine and clean
+# Old Samsung and Sony Ericsson legacy notes .vnt file combine and clean
 
 ## Problem:
 Old samsung notes export option makes a bunch of .vnt files which are unusable anywhere.
