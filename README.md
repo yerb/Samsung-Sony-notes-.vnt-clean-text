@@ -6,11 +6,17 @@ Old samsung notes export option makes a bunch of .vnt files which are unusable a
 ## Solution:
 This Python script will merge all .vnt files into one and extract notes with dates, so they can be easily sent or processed further by user.
 
+You can test the script with the files included in this repository.
+
 ## Usage:
 
-1. ```python vnt_clean.py```
+1. Download or clone this repository
 
-2. provide the name for clean file when prompted.
+2. Add your .vnt files (remove example files)
+
+1. run ```python vnt_clean.py```
+
+2. provide the name for *clean file* when prompted.
 
 
 
