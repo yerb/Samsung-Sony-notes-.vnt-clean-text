@@ -14,9 +14,9 @@ You can test the script with the files included in this repository.
 
 2. Add your .vnt files (remove example files)
 
-1. run ```python vnt_clean.py```
+3. run ```python vnt_clean.py```
 
-2. provide the name for *clean file* when prompted.
+4. provide the name for *clean file* when prompted.
 
 
 
