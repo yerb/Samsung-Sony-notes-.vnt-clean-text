@@ -16,7 +16,7 @@ with open("combined.txt", 'r') as f:
     content = f.read()
 
 # Clean the file to extract notes with dates
-# Regex used is found here https://regex101.com/r/Ev17RM/1/
+# Regex used is found here https://regex101.com/r/ufowNu/1/
 # BEGIN:VNOTE[\S\s]+?PRINTABLE:([\S\s]+?)LAST-MODIFIED[\S\s]+?END:VNOTE
 
 content_new = re.sub('BEGIN:VNOTE[\S\s]+?PRINTABLE:([\S\s]+?)D(CREATED:[\S\s]+?)T[\S\s]+?LAST-MODIFIED[\S\s]+?END:VNOTE', r'\2\n\1\n----\n', content, flags = re.M)
