@@ -8,9 +8,9 @@ This Python script will merge all .vnt files into one and extract notes with dat
 
 ## Usage:
 
-1. python vnt_clean.py
+1. ```python vnt_clean.py```
 
-2. provide the name for clean file when prompted.
+2. ```provide the name for clean file when prompted.```
 
 
 
