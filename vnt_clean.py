@@ -1,4 +1,4 @@
-# Extract legacy Samsung notes with dates from vnt files (notes export format)
+# Extract legacy Samsung notes with dates from .vnt files (notes export format)
 import glob
 import re
 
