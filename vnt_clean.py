@@ -4,7 +4,7 @@ import re
 
 read_files = glob.glob("*.vnt")
 
-print('Meging files...\n', read_files)
+print('Merging files...\n', read_files)
 
 # Merge all .vnt files into one
 with open("combined.txt", "wb") as outfile:
